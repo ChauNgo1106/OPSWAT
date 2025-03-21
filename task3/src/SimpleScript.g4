@@ -4,7 +4,7 @@ script: command;
 
 command: printCmd | addCmd | substractCmd | exitCmd;
 
-printCmd: 'print' (WORD | 'result');
+printCmd: 'print' (WORD+ | 'result');
 addCmd: 'add' NUMBER NUMBER;
 substractCmd: 'substract' NUMBER NUMBER;
 exitCmd: 'exit';

@@ -59,7 +59,7 @@ public class App {
             if(command.contains("result")){
                 System.out.println("The result is: " + result);
             } else {
-                int start = command.indexOf("print");
+                int start = command.indexOf("print", command.indexOf("print") + 1) + 6;
 
                 int end = command.indexOf(")");
 
