@@ -1,0 +1,10 @@
+The Word Count: 11
+
+Top 5 Most Frequent Words:
+test - 4 (36.36%)
+ngo - 2 (18.18%)
+bao - 1 (9.09%)
+chaau - 1 (9.09%)
+chau - 1 (9.09%)
+
+Number of Unique Words: 7

@@ -1,0 +1,13 @@
++ Explain what transform method is doing
+=> Answer: The function itselft is computing the power of two for each digit of a given number and
+add them all into the result. Finally return the result at the end.
+ex: 122 = 1^2 + 2^2 + 2^2 = 5
+9 =  9^2 = 81
++ Identify any potential issue or inefficiencies
+=> Answer: what if the number in the array is huge, let's say then you might add up "while" looping  until
+the number becomes zero (ex: 10000 might need 5 times "while" loop until you can reach 0) and it will slow 
+down the system in term of performace. Instead of finding each digit by divided by 10, how about converting 
+each integer string literal into the string, the power of 2 and add them all to the total of all digits. 
+
++ Refactor the code for better clarity and efficiency.
+=> Answer: Please check my MysteryFunction_Improved.java for better solutuon as my suggestion. 
