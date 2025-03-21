@@ -1,0 +1,6 @@
+print Hello World
+add 1 3
+print result
+substract 1000 9
+print result
+exit
